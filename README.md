@@ -1,4 +1,4 @@
-# 🧫 Fed-Batch Bioreactor Simulation & Optimization
+#  Fed-Batch Bioreactor Simulation & Optimization
 
 A computational bioprocess engineering project implementing **Monod kinetic modeling**, 
 **parameter estimation**, **sensitivity analysis**, and **feed rate optimization** 
@@ -6,7 +6,7 @@ for a fed-batch bioreactor — built entirely in **GNU Octave**.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project simulates the dynamic behavior of a fed-batch bioreactor producing a 
 biological product (e.g., insulin, ethanol, or antibiotics) using mathematical modeling 
@@ -19,7 +19,7 @@ Phase 1   →    Phase 2    →      Phase 3         →    Phase 4
 
 ---
 
-## 🔬 Phases
+##  Phases
 
 ### Phase 1 — Bioreactor Simulation
 - Modeled biomass growth, substrate consumption, product formation and volume change
@@ -62,7 +62,7 @@ $$\mu = \mu_{max} \cdot \frac{S}{K_s + S}$$
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 Bioreactor-Simulation/
 ├── Bioreactor.m               # Phase 1 - ODE simulation
 ├── bioreactor_odes.m          # Shared ODE function (Monod kinetics)
@@ -82,7 +82,7 @@ Bioreactor-Simulation/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Clone or download this repository
 2. Open GNU Octave
@@ -100,7 +100,7 @@ optimization            % Phase 4 - Optimization
 
 ---
 
-## 📊 Results Summary
+##  Results Summary
 
 | Phase | Key Output |
 |---|---|
@@ -111,7 +111,7 @@ optimization            % Phase 4 - Optimization
 
 ---
 
-## 🧠 Key Concepts Demonstrated
+##  Key Concepts Demonstrated
 
 - **Monod Kinetics** — microbial growth rate modeling
 - **Fed-batch mass balance** — dynamic ODE system
@@ -122,7 +122,7 @@ optimization            % Phase 4 - Optimization
 
 ---
 
-## 🌍 Real World Applications
+##  Real World Applications
 
 The methodology demonstrated in this project is directly applicable to:
 - **Pharmaceutical manufacturing** — insulin, monoclonal antibodies
@@ -132,7 +132,7 @@ The methodology demonstrated in this project is directly applicable to:
 
 ---
 
-## 📚 References
+##   References
 
 1. Shuler, M.L. & Kargi, F. (2002). *Bioprocess Engineering: Basic Concepts*. Prentice Hall.
 2. Monod, J. (1949). The growth of bacterial cultures. *Annual Review of Microbiology*, 3, 371–394.
@@ -140,18 +140,18 @@ The methodology demonstrated in this project is directly applicable to:
 
 ---
 
-## 👤 Author
+##   Author
 
 Sabarish.G
 B.Tech Biotechnology
 SASTRA University 
 
-📧 sabarish03062005@gmail.com
-🔗 www.linkedin.com/in/sabarish-g-7b959b2a7
+Email - sabarish03062005@gmail.com
+Linkdein -  www.linkedin.com/in/sabarish-g-7b959b2a7
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License — see the LICENSE file for details.
 
